@@ -1,4 +1,10 @@
-﻿#include <iostream>
+﻿/*************
+* HashTable
+* @author Bartłomiej Juszczyk
+*
+**************/
+
+#include <iostream>
 #include <vector>
 #include <forward_list>
 #include <sstream>
@@ -171,6 +177,7 @@ std::string randomKey(const int len) {
 	return tmp_s;
 }
 
+// Example usage
 int main()
 {
 	/*hashTable<int> table;
